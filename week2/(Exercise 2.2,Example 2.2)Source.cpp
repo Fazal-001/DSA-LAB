@@ -1,7 +1,12 @@
-//#include <iostream>                         // Exercise 2.2 part a
-//#include <string>
-//using namespace std;
-//
+#include<Stack.h>
+#include <iostream>                        
+#include <string>
+using namespace std;
+
+
+
+       // Exercise 2.2 part a
+
 //bool isValidParentheses(string expr) {
 //    Stack<char> stack;
 //
@@ -39,10 +44,9 @@
 
 
 
-//#include <iostream>                                 //Exercise 2.2 part b.
-//#include <string>
-//using namespace std;
-//
+
+
+                               //Exercise 2.2 part b.
 //int precedence(char op) {
 //    if (op == '+' || op == '-') return 1;
 //    if (op == '*' || op == '/') return 2;
@@ -104,12 +108,8 @@
 
 
 
+						//Exercise 2.2 part c.
 
-
-//#include <iostream>								//Exercise 2.2 part c.
-//#include <string>
-//using namespace std;
-//
 //int evaluatePostfix(string postfix) {
 //    Stack<int> stack;
 //
@@ -143,4 +143,28 @@
 //
 //    cout << "Evaluation result: " << evaluatePostfix(postfix) << endl;
 //    return 0;
+//}
+
+
+
+
+
+              //Example 2.2
+//int main() {
+//
+//	Stack<int> IntStack;
+//	Stack<float> FloatStack;
+//	int data;
+//	float val;
+//
+//	IntStack.Push(35);
+//	FloatStack.Push(3.1415927);
+//
+//	IntStack.Pop(data);
+//	cout << data << endl;
+//
+//	FloatStack.Pop(val);
+//	cout << val << endl;
+//
+//	return 0;
 //}
